@@ -1,5 +1,6 @@
 # Without python
 
+```
 npm ERR! No prebuilt Ninja, building Ninja now
 npm ERR! env: can't execute 'python': No such file or directory
 npm ERR! node:child_process:720
@@ -24,9 +25,11 @@ npm ERR!   pid: 26,
 npm ERR!   stdout: null,
 npm ERR!   stderr: null
 npm ERR! }
+```
 
 # With python
 
+```
 npm ERR! path /home/node/app/node_modules/rescript
 npm ERR! command failed
 npm ERR! command sh -c node scripts/install.js
@@ -34,153 +37,7 @@ npm ERR! ninja not compatible? Error: Command failed: "/home/node/app/node_modul
 npm ERR! building ninja
 npm ERR! .clang-format
 npm ERR! .gitignore
-npm ERR! .travis.yml
-npm ERR! COPYING
-npm ERR! HACKING.md
-npm ERR! README
-npm ERR! RELEASING
-npm ERR! appveyor.yml
-npm ERR! bootstrap.py
-npm ERR! configure.py
-npm ERR! doc/
-npm ERR! doc/README.md
-npm ERR! doc/dblatex.xsl
-npm ERR! doc/docbook.xsl
-npm ERR! doc/doxygen.config
-npm ERR! doc/manual.asciidoc
-npm ERR! doc/style.css
-npm ERR! misc/
-npm ERR! misc/afl-fuzz-tokens/
-npm ERR! misc/afl-fuzz-tokens/kw_build
-npm ERR! misc/afl-fuzz-tokens/kw_default
-npm ERR! misc/afl-fuzz-tokens/kw_include
-npm ERR! misc/afl-fuzz-tokens/kw_pool
-npm ERR! misc/afl-fuzz-tokens/kw_rule
-npm ERR! misc/afl-fuzz-tokens/kw_subninja
-npm ERR! misc/afl-fuzz-tokens/misc_a
-npm ERR! misc/afl-fuzz-tokens/misc_b
-npm ERR! misc/afl-fuzz-tokens/misc_colon
-npm ERR! misc/afl-fuzz-tokens/misc_cont
-npm ERR! misc/afl-fuzz-tokens/misc_dollar
-npm ERR! misc/afl-fuzz-tokens/misc_eq
-npm ERR! misc/afl-fuzz-tokens/misc_indent
-npm ERR! misc/afl-fuzz-tokens/misc_pipe
-npm ERR! misc/afl-fuzz-tokens/misc_pipepipe
-npm ERR! misc/afl-fuzz-tokens/misc_space
-npm ERR! misc/afl-fuzz/
-npm ERR! misc/afl-fuzz/build.ninja
-npm ERR! misc/bash-completion
-npm ERR! misc/ci.py
-npm ERR! misc/inherited-fds.ninja
-npm ERR! misc/long-slow-build.ninja
-npm ERR! misc/measure.py
-npm ERR! misc/ninja-mode.el
-npm ERR! misc/ninja.vim
-npm ERR! misc/ninja_syntax.py
-npm ERR! misc/ninja_syntax_test.py
-npm ERR! misc/output_test.py
-npm ERR! misc/packaging/
-npm ERR! misc/packaging/ninja.spec
-npm ERR! misc/packaging/rpmbuild.sh
-npm ERR! misc/write_fake_manifests.py
-npm ERR! misc/zsh-completion
-npm ERR! snapshot.js
-npm ERR! src/
-npm ERR! src/browse.cc
-npm ERR! src/browse.h
-npm ERR! src/browse.py
-npm ERR! src/build.cc
-npm ERR! src/build.h
-npm ERR! src/build_log.cc
-npm ERR! src/build_log.h
-npm ERR! src/build_log_perftest.cc
-npm ERR! src/build_log_test.cc
-npm ERR! src/build_test.cc
-npm ERR! src/canon_perftest.cc
-npm ERR! src/clean.cc
-npm ERR! src/clean.h
-npm ERR! src/clean_test.cc
-npm ERR! src/clparser.cc
-npm ERR! src/clparser.h
-npm ERR! src/clparser_perftest.cc
-npm ERR! src/clparser_test.cc
-npm ERR! src/debug_flags.cc
-npm ERR! src/debug_flags.h
-npm ERR! src/depfile_parser.cc
-npm ERR! src/depfile_parser.h
-npm ERR! src/depfile_parser.in.cc
-npm ERR! src/depfile_parser_perftest.cc
-npm ERR! src/depfile_parser_test.cc
-npm ERR! src/deps_log.cc
-npm ERR! src/deps_log.h
-npm ERR! src/deps_log_test.cc
-npm ERR! src/disk_interface.cc
-npm ERR! src/disk_interface.h
-npm ERR! src/disk_interface_test.cc
-npm ERR! src/dyndep.cc
-npm ERR! src/dyndep.h
-npm ERR! src/dyndep_parser.cc
-npm ERR! src/dyndep_parser.h
-npm ERR! src/dyndep_parser_test.cc
-npm ERR! src/edit_distance.cc
-npm ERR! src/edit_distance.h
-npm ERR! src/edit_distance_test.cc
-npm ERR! src/eval_env.cc
-npm ERR! src/eval_env.h
-npm ERR! src/exit_status.h
-npm ERR! src/gen_doxygen_mainpage.sh
-npm ERR! src/getopt.c
-npm ERR! src/getopt.h
-npm ERR! src/graph.cc
-npm ERR! src/graph.h
-npm ERR! src/graph_test.cc
-npm ERR! src/graphviz.cc
-npm ERR! src/graphviz.h
-npm ERR! src/hash_collision_bench.cc
-npm ERR! src/hash_map.h
-npm ERR! src/includes_normalize-win32.cc
-npm ERR! src/includes_normalize.h
-npm ERR! src/includes_normalize_test.cc
-npm ERR! src/inline.sh
-npm ERR! src/lexer.cc
-npm ERR! src/lexer.h
-npm ERR! src/lexer.in.cc
-npm ERR! src/lexer_test.cc
-npm ERR! src/line_printer.cc
-npm ERR! src/line_printer.h
-npm ERR! src/manifest_parser.cc
-npm ERR! src/manifest_parser.h
-npm ERR! src/manifest_parser_perftest.cc
-npm ERR! src/manifest_parser_test.cc
-npm ERR! src/metrics.cc
-npm ERR! src/metrics.h
-npm ERR! src/minidump-win32.cc
-npm ERR! src/msvc_helper-win32.cc
-npm ERR! src/msvc_helper.h
-npm ERR! src/msvc_helper_main-win32.cc
-npm ERR! src/msvc_helper_test.cc
-npm ERR! src/ninja.cc
-npm ERR! src/ninja_test.cc
-npm ERR! src/parser.cc
-npm ERR! src/parser.h
-npm ERR! src/state.cc
-npm ERR! src/state.h
-npm ERR! src/state_test.cc
-npm ERR! src/string_piece.h
-npm ERR! src/string_piece_util.cc
-npm ERR! src/string_piece_util.h
-npm ERR! src/string_piece_util_test.cc
-npm ERR! src/subprocess-posix.cc
-npm ERR! src/subprocess-win32.cc
-npm ERR! src/subprocess.h
-npm ERR! src/subprocess_test.cc
-npm ERR! src/test.cc
-npm ERR! src/test.h
-npm ERR! src/timestamp.h
-npm ERR! src/util.cc
-npm ERR! src/util.h
-npm ERR! src/util_test.cc
-npm ERR! src/version.cc
+...
 npm ERR! src/version.h
 npm ERR! src/win32port.h
 npm ERR! No prebuilt Ninja, building Ninja now
@@ -222,9 +79,11 @@ npm ERR!   pid: 26,
 npm ERR!   stdout: null,
 npm ERR!   stderr: null
 npm ERR! }
+```
 
 # With g++
 
+```
 npm ERR! ninja explain: build/subprocess-posix.o is dirty
 npm ERR! ninja explain: build/libninja.a is dirty
 npm ERR! /bin/sh: make: not found
@@ -250,6 +109,7 @@ npm ERR!   pid: 195,
 npm ERR!   stdout: null,
 npm ERR!   stderr: null
 npm ERR! }
+```
 
 # With make
 
