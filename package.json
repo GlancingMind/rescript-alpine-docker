@@ -1,0 +1,15 @@
+{
+  "name": "rescript-alpine",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "rescript build"
+  },
+  "keywords": [
+    "rescript"
+  ],
+  "author": "Sascha (aka. GlancingMind)",
+  "license": "MIT",
+  "devDependencies": {
+    "rescript": "^9.1.1"
+  }
+}
