@@ -10,6 +10,6 @@
   "author": "Sascha (aka. GlancingMind)",
   "license": "MIT",
   "devDependencies": {
-    "rescript": "^9.1.1"
+    "bs-platform": "^8.3.3"
   }
 }
